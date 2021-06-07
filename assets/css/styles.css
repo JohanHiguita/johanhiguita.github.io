@@ -6,7 +6,23 @@
 }
 
 .used-techs{
-  font-size: 2.5rem;  
+  font-size: 2rem;  
+}
+
+.skills-tech{
+  font-size: 3rem; 
+}
+
+.skills-tech i {
+  margin: 7px;
+}
+
+.skills-learn{
+  font-size: 3rem; 
+}
+
+.skills-learn i {
+  margin: 7px;
 }
 
 /* .l, .logo-container{
