@@ -690,3 +690,13 @@ a.dotted-link:hover {
     max-width: inherit;
   }
 }
+
+/* Custom styles */
+
+a.social-logo{
+  color: #49515a;
+}
+
+a.social-logo:hover{
+  color: #778492;
+}
