@@ -1,6 +1,11 @@
 
 
 /*By Johan Higuita*/
+
+p{
+  text-align: justify;
+}
+
 .tech-icon{
   font-size: 1.5rem !important;
 }
@@ -439,6 +444,22 @@ a.dotted-link:hover {
   font-size: 14px;
 }
 
+/* Colores específicos para iconos de información básica */
+.info .fa-map-marker-alt,
+.info .svg-inline--fa.fa-map-marker-alt {
+  color: #E74C3C;
+}
+
+.info .fa-envelope,
+.info .svg-inline--fa.fa-envelope {
+  color: #3498DB;
+}
+
+.info .fa-phone,
+.info .svg-inline--fa.fa-phone {
+  color: #27AE60;
+}
+
 .info ul {
   margin-bottom: 0;
 }
@@ -715,4 +736,37 @@ a.social-logo{
 
 a.social-logo:hover{
   color: #778492;
+}
+
+/* Colores específicos para cada icono social */
+a.social-logo .fa-linkedin-in {
+  color: #0077b5;
+}
+
+a.social-logo:hover .fa-linkedin-in {
+  color: #005885;
+}
+
+a.social-logo .fa-github {
+  color: #181717;
+}
+
+a.social-logo:hover .fa-github {
+  color: #000000;
+}
+
+a.social-logo .fa-hackerrank {
+  color: #00EA64;
+}
+
+a.social-logo:hover .fa-hackerrank {
+  color: #00C853;
+}
+
+a.social-logo .fa-file-pdf {
+  color: #DC143C;
+}
+
+a.social-logo:hover .fa-file-pdf {
+  color: #B30B00;
 }
