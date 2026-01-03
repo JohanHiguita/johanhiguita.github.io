@@ -6,6 +6,10 @@ p{
   text-align: justify;
 }
 
+.fa-graduation-cap {
+  color: #000000;
+}
+
 .tech-icon{
   font-size: 1.5rem !important;
 }
