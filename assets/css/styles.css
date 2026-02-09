@@ -221,24 +221,57 @@ a.dotted-link:hover {
   margin-top: 8px;
 }
 
+.header-contact {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.header-contact li {
+  margin-bottom: 5px;
+}
+
+.header-contact li:last-child {
+  margin-bottom: 0;
+}
+
+.header-contact .fa-map-marker-alt,
+.header-contact .svg-inline--fa.fa-map-marker-alt {
+  color: #E74C3C;
+}
+
+.header-contact .fa-envelope,
+.header-contact .svg-inline--fa.fa-envelope {
+  color: #3498DB;
+}
+
+.header-contact .fa-phone,
+.header-contact .svg-inline--fa.fa-phone {
+  color: #27AE60;
+}
+
 /* ======= Sections======= */
 .sections-wrapper {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.single-column {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .section {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .section .section-inner {
   background: #fff;
-  padding: 30px;
+  padding: 20px;
 }
 
 .section .heading {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: #545e69;
   font-size: 24px;
 }
@@ -713,6 +746,10 @@ a.dotted-link:hover {
     border-radius: 50%;
   }
   .header .profile-content {
+    float: none !important;
+    text-align: center;
+  }
+  .header-contact {
     float: none !important;
     text-align: center;
   }
