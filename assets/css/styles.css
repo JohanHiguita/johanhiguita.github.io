@@ -301,9 +301,13 @@ a.dotted-link:hover {
   width: 160px;
   height: 160px;
   object-fit: cover;
+  object-position: center 18%;
   margin-right: 0;
   border-radius: 50%;
-  border: 2px solid var(--border);
+  border: 3px solid rgba(45, 212, 168, 0.55);
+  box-shadow:
+    0 0 0 6px var(--bg-header),
+    0 0 0 7px rgba(45, 212, 168, 0.22);
 }
 
 .header .profile-content {
@@ -570,7 +574,37 @@ a.dotted-link:hover {
   color: var(--accent);
 }
 
-/* Work Section */
+/* Work Section — timeline */
+.experience .content.timeline {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 1.35rem;
+  border-left: 2px solid var(--border);
+}
+
+.experience .content.timeline .item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 0.35rem;
+}
+
+.experience .content.timeline .item:last-child {
+  margin-bottom: 0;
+}
+
+.experience .content.timeline .item::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.35rem - 5px);
+  top: 0.45rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--bg-elevated);
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 0 3px var(--bg-elevated);
+}
+
 .experience .item {
   margin-bottom: 30px;
 }
@@ -608,6 +642,26 @@ a.dotted-link:hover {
   font-size: 0.85rem;
   color: var(--text-muted);
   text-align: left;
+}
+
+/* Core stack */
+.stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stack-list li {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text);
+  background: rgba(45, 212, 168, 0.08);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.35rem 0.75rem;
 }
 
 /* Git section */
